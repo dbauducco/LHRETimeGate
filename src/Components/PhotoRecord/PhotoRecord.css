@@ -1,0 +1,38 @@
+  .photorecord-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .photorecord-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+
+  .data-col 
+  {
+    text-align: left;
+  }
+
+  .data-col p
+  {
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+  .image-col img
+  {
+    text-align: right;
+    float: right;
+  }
+
+  .image-col
+  {
+    display: inline;
+    margin-right: 20px;
+  }
